@@ -1,6 +1,8 @@
-import java.util.Date;
+import java.io.Serializable;
 
-public class Contact {
+public class Contact implements Serializable {
+    public static final long serialVersionUID = 1L;
+
     private String name;
     private String surname;
     private String telNumber;
